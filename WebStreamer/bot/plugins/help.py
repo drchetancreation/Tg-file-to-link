@@ -1,2 +1,3 @@
-def helpon(update: Update, context: CallbackContext):
-    update.message.reply_text("Didn not work? Give a clickdidn't work give a click https://gotalink.herokuapp.com/")
+@StreamBot.on_message(filters.command('help'))
+async def help(_, m: Message):
+    await m.reply("Didn not work? Give a clickdidn't work give a click https://gotalink.herokuapp.com/")
