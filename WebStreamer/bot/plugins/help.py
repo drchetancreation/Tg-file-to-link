@@ -1,4 +1,6 @@
+from pyrogram import filters, emoji
 from WebStreamer.bot import StreamBot
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 
 @StreamBot.on_message(filters.command('help'))
 async def help(_, m: Message):
