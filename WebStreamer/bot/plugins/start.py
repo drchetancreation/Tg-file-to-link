@@ -13,7 +13,7 @@ async def start(b, m):
                       [
                           [
                               InlineKeyboardButton(
-                                  f'{emoji.STAR} Source {emoji.STAR}',
+                                  f'Source',
                                   url='https://github.com/EverythingSuckz/TG-FileStreamBot'
                               )
                           ]
